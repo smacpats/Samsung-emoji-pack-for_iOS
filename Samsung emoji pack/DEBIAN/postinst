@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cp -a /System/Library/Fonts/Core/AppleColorEmoji@2x.ttc /var/mobile/Documents/EmojiPortInstaller/backup
+cp -a /System/Library/Fonts/Core/AppleColorEmoji@2x.ttc /var/mobile/Documents/SamsungEmojis/backup
 echo "Overwriting font file..."
-cp -a /var/mobile/Documents/EmojiPortInstaller//121emojis/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
-rm -rf /var/mobile/Documents/EmojiPortInstaller/121emojis/
+cp -a /var/mobile/Documents/SamsungEmojis//samsungemojis/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
+rm -rf /var/mobile/Documents/SamsungEmojis/samsungemojis/
 echo "Overwrite complete!"
 killall -9 discoveryd
 killall -9 mDNSResponder

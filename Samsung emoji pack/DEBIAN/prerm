@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo "Restoring Default Font File"
-cp -a /var/mobile/Documents/EmojiPortInstaller/backup/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
+cp -a /var/mobile/Documents/SamsungEmojis/backup/AppleColorEmoji@2x.ttc /System/Library/Fonts/Core
 echo "Restore Complete"
 killall -9 discoveryd
 killall -9 mDNSResponder
-rm -rf /var/mobile/Documents/EmojiPortInstaller/
+rm -rf /var/mobile/Documents/SamsungEmojis/
 echo "You should be reset back to the default font file now!"
 exit 0

@@ -1,9 +1,10 @@
-Package: io.smacpats.emojiportinstaller
-Name: EmojiPort Installer
-Version: 1.0.3-1
+Package: io.smacpats.samsungemojipack
+Name: Samsung Emoji Pack
+Version: 1.0
 Architecture: iphoneos-arm
-Depends: com.ps.emojiportwt, mobilesubstrate
+Depends: mobilesubstrate
+conflicts: com.ps.emojiportwt
 Author: Smacpats
-Section: EmojiPort
-Description: Install emojiport and iOS 12.1 emojis automatically
+Section: Emojis
+Description: Install samsung emojis for iOS, not to be used with emojiport!
 Maintainer: smacpats
