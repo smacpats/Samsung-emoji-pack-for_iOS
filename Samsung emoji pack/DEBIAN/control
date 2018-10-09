@@ -1,0 +1,9 @@
+Package: io.smacpats.emojiportinstaller
+Name: EmojiPort Installer
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Depends: com.ps.emojiportwt, mobilesubstrate
+Author: Smacpats
+Section: EmojiPort
+Description: Install emojiport and iOS 12.1 emojis automatically
+Maintainer: smacpats
